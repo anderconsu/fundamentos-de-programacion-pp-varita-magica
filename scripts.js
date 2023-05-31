@@ -9,7 +9,6 @@ const a = document.getElementsByTagName("a");
 const img = document.querySelectorAll("img");
 const text = document.querySelectorAll("p");
 const articlesec = document.querySelectorAll("article, section");
-console.log(articlesec);
 // Quitar accion por defecto al hacer click en los enlaces
 for (let i = 0; i < a.length; i++) {
   a[i].addEventListener("click", function (ev) {
